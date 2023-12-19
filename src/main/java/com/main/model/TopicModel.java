@@ -1,6 +1,12 @@
 package com.main.model;
 
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class TopicModel {
+    @Id
     protected String id;
     protected String name;
     protected String description;
